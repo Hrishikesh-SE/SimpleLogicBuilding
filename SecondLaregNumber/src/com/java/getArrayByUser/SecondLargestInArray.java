@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class SecondLargestInArray {
 	public static void main(String[] args) {
-		int[] arr = new int[10];
+		
 		System.out.print("Enter length of Array: ");
 		Scanner sc = new Scanner(System.in);
 		int length = sc.nextInt();
+		int[] arr = new int[length];
 		System.out.print("Enter the " + length + " elements of Array: ");
 		for (int i = 0; i < length; i++) {
 			arr[i] = sc.nextInt();

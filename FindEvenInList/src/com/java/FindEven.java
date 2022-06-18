@@ -18,7 +18,7 @@ public class FindEven {
 		System.out.print("Even numbers of array are: ");
 		for (int element : arr) {
 			if (element % 2 == 0)
-				System.out.print(element);
+				System.out.print(" "+element);
 		}
 		sc.close();
 	}
